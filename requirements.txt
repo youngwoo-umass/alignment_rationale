@@ -1,0 +1,6 @@
+numpy==1.23.4
+six==1.16.0
+scipy==1.9.3
+six==1.15.0
+SQLAlchemy==1.4.44
+tensorflow==2.6.0

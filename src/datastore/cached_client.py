@@ -25,8 +25,6 @@ class OverheadRecorder:
     def end(self, overhead_limit: float = None):
         self._pause()
         overhead = self.overhead
-        if overhead_limit is not None and overhead > overhead_limit:
-            print("WARNING overhead exceeds limit")
 
     def pause(self):
         self._pause()
